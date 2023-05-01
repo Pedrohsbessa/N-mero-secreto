@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+:root {
+    --fonte-geral: 'Rubik', sans-serif;
+    --cor-primária: #FDF4F5;
+    --cor-secundária: #a252b8;
+}
+
+body {
+    background-color: var(--cor-primária);
+    color: var(--cor-secundária);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--fonte-geral);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 1.6em;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+.box {
+    display: inline-block;
+    border: 1px solid var(--cor-secundária);
+    font-size: 3em;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.imagem__seta__cima {
+    width: 20px;
+    height: 20px;
+}
+
+.botão__reiniciar {
+    background-color: var(--cor-secundária);
+    margin-top: 1.6em;
+    color: var(--cor-primária);
+    font-family: var(--fonte-geral);
+    font-size: 2.5em;
+    border: 0.5px solid;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.botão__reiniciar:hover {
+    background-color: var(--cor-secundária);
+    box-shadow: 0px 15px 20px var(--cor-secundária);
+    transform: translateY(-7px);
+}
