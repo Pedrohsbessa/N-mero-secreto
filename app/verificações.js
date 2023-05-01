@@ -15,7 +15,7 @@ function verificaValor(valor) {
 
     if (número === númeroSecreto) {
         document.body.innerHTML = `
-        <h2> VACÊ ACERTOU</h2>
+        <h2> VOCÊ ACERTOU</h2>
         <h3> O número secreto é ${número}</h3>
         <button id = "botão-reiniciar" class = "botão__reiniciar">Reiniciar</button>
     `
